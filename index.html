@@ -54,16 +54,15 @@
 		<div id="contact"> <!-- contact contiene su título, y un formulario. No tiene el mismo estilo y funcionalidad del original -->
 			<h2>CONTACT ME</h2>
 			<h3 class="stargrayline"><hr class="grayline"><i class="fa fa-star" aria-hidden="true"></i><hr class="grayline"></h3>
-			<form action="/action_page.php">
-				<div class="form">Name: <br>
-					<input type="text" name="name" value=" "></div>
-				<div class="form">Email Addres: <br>
-					<input type="text" name="email" value=" "></div>
-				<div class="form">Phone Number: <br>
-					<input type="text" name="number" value=" "></div>
-				<div class="form">Message: <br><br><br><br><br>
-					<input type="text" name="message" value=" "><br></div>
-				<div class="form"><input type="submit" value="Send"></div>
+			<form id="form" action="/action_page.php">
+				<input type="text" name="name"
+					placeholder="Name"> <hr class="dividing-line">
+				<input type="text" name="email"
+					placeholder="Email"> <hr class="dividing-line">
+				<input type="text" name="number"
+					placeholder="Phone Number"> <hr class="dividing-line">
+				<textarea placeholder="Message" name="message"></textarea><hr class="dividing-line">
+				<input type="submit" value="Send">
 			</form>
 		</div>
 	</section> <!-- cierro section-->
