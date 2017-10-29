@@ -17,27 +17,10 @@ body {
 
 /* Segunda fuente es font-family: 'Lato', sans-serif; */
 
-.container {
-	width: 1150px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 14px;
-	padding-right: 14px;
-}
-
-.container:before, .container:after {
-	content: " ";
-	display: table;
-}
-
 *:before, *:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-}
-
-.container:after {
-	clear: both;
 }
 
 /* header con posición fija */
@@ -58,15 +41,14 @@ header {
  	
  }
 
- .header > ul {
+ .header > nav {
  	float: right;
-    margin: -48px 70px;
+    margin: -65px 95px;
  }
 
 h2 {
 	text-transform: uppercase;
 	font-size: 48px;
-	margin-bottom: -20px;
 }
 
 /* bloque padre con alineado al centro, entre el header y el footer */
@@ -79,9 +61,9 @@ section {
 	text-decoration: none;
 	color: #FFF;
 	text-transform: uppercase;
-	margin-right: 30px;
-	margin-top: -18px;
+	padding: 8px;
 	size: 16px;
+	letter-spacing: 1px;
 }
 
 .links > a:hover {
@@ -97,7 +79,11 @@ section {
 
 #start > h1 {
 	font-size: 76px;
-	margin: 10px;
+	margin: 25px 0px 20px;
+}
+
+.titles {
+	margin: 70px 0px 10px;
 }
 
 /* estrella "encerrada" en un h3, con su ícono y líneas */
@@ -109,15 +95,17 @@ h3 {
 
 .starline {
 	display: inline-flex;
+	margin: 0px;
+	font-size: 32px;
 }
 
 .line {
-	width: 90px;
+	width: 100px;
 	height: 1px;
 	background-color:#FFF;
 	border: 0 none;
 	padding-top: 5px;
-    margin: 10px 10px 
+    margin: 12px 10px 
 }
 
 #start > img {
@@ -129,6 +117,10 @@ h3 {
 	height: auto;
 }
 
+.gray {
+	color: #212529;
+}
+
 /* estrella azul, limpiar código... */
 
 #images > .fa-star {
@@ -138,16 +130,17 @@ h3 {
 .stargrayline {
 	color: #2C3E50;
 	display: inline-flex;
+	font-size: 32px;
+	margin: 0px;
 }
 
 .grayline {
-	width: 90px;
+	width: 100px;
 	height: 1px;
 	background-color:#2C3E50;
-	
 	border: 0 none;
 	padding-top: 5px;
-    margin: 10px 10px 
+    margin: 12px 10px 
 }
 
 .portfolio {
@@ -168,20 +161,21 @@ h3 {
 }
 
 #about {
-	height: 600px;
+	height: 580px;
 	padding:30px 0px;
 	background: #18BC9C;
 	color: #FFF;
 }
 
 .paragraph {
-	width: 280px;
+	width: 350px;
 	font-family: 'Lato', sans-serif;
 	display: inline-flex;
 	font-weight: 400;
 	text-align: left;
 	font-size: 20px;
 	margin: 20px;
+	line-height: 1.5;
 }
 
 .download > a {
@@ -203,6 +197,7 @@ h3 {
 #contact {
 	height: 800px;
 	background: #FFF;
+	text-align: center;
 }
 
 /* formulario con alineado izquierdo */
@@ -228,6 +223,7 @@ input {
     border-bottom: 1px solid #EEE;
     width: 700px;
     height: 2px;
+    margin: 20px 0px;
 }
 
 /* modifica el texto que va en la caja que se borra al escribir*/

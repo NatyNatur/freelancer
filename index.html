@@ -13,11 +13,13 @@
 	<header> <!-- header fijo, contiene un título y tres enlaces -->
 		<div class="header">
 			<h1>START BOOTSTRAP</h1> 
-			<ul class="links">
-				<a href="#">Portfolio</a>
-				<a href="#">About</a>
-				<a href="#">Contact</a>
-			</ul>
+			<nav> 
+				<ul class="links">
+					<a href="#">Portfolio</a>
+					<a href="#">About</a>
+					<a href="#">Contact</a>
+				</ul>
+			</nav>
 		</div>
 	</header>
 	<section> <!-- section incluye lo ubicado entre el header y el footer, centrado -->
@@ -28,7 +30,7 @@
 			<h3>Web Developer - Graphic Artits - User Experience Designer</h2>
 		</div>
 		<div id="images"> <!-- images contiene su título y seis imágenes contenidas dentro de un div que tiene dos ul para ubicarlas horizontalmente de a tres -->
-			<h2>Portfolio</h2>
+			<h2 class="titles gray">Portfolio</h2>
 			<h3 class="stargrayline"><hr class="grayline"><i class="fa fa-star" aria-hidden="true"></i><hr class="grayline"></h3>
 			<div>
 				<ul class="one">
@@ -44,7 +46,7 @@
         	</div>
 		</div>
 		<div id="about"> <!-- about contiene su título y un div con dos párrafos alineados horizontalmente. Abajo hay un enlace posicionado al centro-->
-			<h2>ABOUT</h2>
+			<h2 class="titles">ABOUT</h2>
 			<h3 class="starline"><hr class="line"><i class="fa fa-star" aria-hidden="true"></i><hr class="line"></h3>
 			<div>
 				<p class="paragraph">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -52,13 +54,13 @@
 			<div class="download"><a href="https://blackrockdigital.github.io/startbootstrap-freelancer/"><i class="fa fa-download" aria-hidden="true"></i> Download Theme</a></div>		
 		</div>
 		<div id="contact"> <!-- contact contiene su título, y un formulario. No tiene el mismo estilo y funcionalidad del original -->
-			<h2>CONTACT ME</h2>
+			<h2 class="titles gray" >CONTACT ME</h2>
 			<h3 class="stargrayline"><hr class="grayline"><i class="fa fa-star" aria-hidden="true"></i><hr class="grayline"></h3>
 			<form id="form" action="/action_page.php">
 				<input type="text" name="name"
 					placeholder="Name"> <hr class="dividing-line">
 				<input type="text" name="email"
-					placeholder="Email"> <hr class="dividing-line">
+					placeholder="Email Address"> <hr class="dividing-line">
 				<input type="text" name="number"
 					placeholder="Phone Number"> <hr class="dividing-line">
 				<textarea placeholder="Message" name="message"></textarea><hr class="dividing-line">
