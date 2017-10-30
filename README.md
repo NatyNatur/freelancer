@@ -21,7 +21,7 @@ El presente reto de código consistía en replicar el sitio de [Freelancer](http
   - Recursos obtenidos de la plantilla inicial facilitada por Laboratoria.
 
 
-## ## Desarrollo
+## Desarrollo
 
 * Título, enlace a Google Fonts, a Font Awesome y a mi archivo de estilos ubicados dentro del `head`. Dentro de mi etiqueta `body` tengo:
 
@@ -35,3 +35,6 @@ El presente reto de código consistía en replicar el sitio de [Freelancer](http
 * Etiqueta `footer` la divido en dos `div`: 
 	- `footer-above` contiene una listas desordenadas de información de la página y un segundo `ul` con los íconos de las redes sociales dentro de un círculo hecho en css. 
 	- `footer-below` contiene un párrafo con datos del copyright.
+
+
+###### _it's kind of funny how i tried to name all in english and my title is in spanish_ :sweat_smile:
